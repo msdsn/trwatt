@@ -21,7 +21,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "/DC-Cihazı-scaled-540x640.jpg",
+    src: "/DC-Cihazı.jpg",
     alt: "DC Hızlı Şarj",
     title: "DC Hızlı Şarj Teknolojisi"
   },

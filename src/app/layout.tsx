@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { LanguageProvider } from '@/contexts/LanguageContext';
 
 const geist = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VoltGo Bayi - Elektrikli Araç Şarj Çözümleri",
-  description: "VoltGo'nun yetkili bayisi olarak elektrikli araç şarj cihazları ve istasyonları konusunda profesyonel çözümler sunuyoruz. DC şarj, süper hızlı şarj ve ayrık üniteli şarj sistemleri.",
+  title: "Waltgo - VoltGo Yetkili Bayisi | Elektrikli Araç Şarj Çözümleri",
+  description: "VoltGo'nun yetkili bayisi Waltgo ile elektrikli araç şarj çözümlerini keşfedin. DC hızlı şarj, AC şarj istasyonları ve Wallbox çözümleri.",
   keywords: "voltgo, elektrikli araç şarj, şarj istasyonu, dc şarj, elektrikli araç, şarj cihazı, bayi",
 };
 
@@ -28,7 +29,9 @@ export default function RootLayout({
       <body
         className={`${geist.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );

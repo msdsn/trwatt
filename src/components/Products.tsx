@@ -13,7 +13,7 @@ const products = [
     id: 2,
     name: "DC Şarj Cihazı",
     description: "Hızlı şarj için DC şarj istasyonu çözümü. Ticari kullanım için ideal.",
-    image: "/DC-Cihazı-scaled-540x640.jpg",
+    image: "/DC-Cihazı.jpg",
     features: ["Hızlı şarj", "CCS/CHAdeMO desteği", "Akıllı ödeme sistemi"],
     power: "50-150 kW"
   },
