@@ -162,7 +162,7 @@ export default function About() {
           
           <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
             <SplitParagraph>
-              {`Waltgo, ${t('about.description1')}`}
+              {`Trwatt, ${t('about.description1')}`}
             </SplitParagraph>
             <SplitParagraph>
               {t('about.description2')}
@@ -385,7 +385,7 @@ export default function About() {
           </motion.h3>
           
           <SplitParagraph className="text-lg text-gray-600 leading-relaxed relative z-10">
-            Waltgo olarak, VoltGo'nun kurumsal ve ticari çözümlerini müşterilerimize sunuyoruz. Gelir modeli odaklı yaklaşımımızla, şarj istasyonu yatırımlarınızın karlılığını maksimize ediyoruz. Finansal danışmanlık, teknik destek ve sürekli bakım hizmetlerimizle, elektrikli araç şarj altyapınızı güvenle işletebilirsiniz. Kurumsal müşterilerimize özel fiyatlandırma ve esnek ödeme seçenekleri sunarak, sürdürülebilir enerji dönüşümünde iş ortağınız oluyoruz.
+            Trwatt olarak, VoltGo'nun kurumsal ve ticari çözümlerini müşterilerimize sunuyoruz. Gelir modeli odaklı yaklaşımımızla, şarj istasyonu yatırımlarınızın karlılığını maksimize ediyoruz. Finansal danışmanlık, teknik destek ve sürekli bakım hizmetlerimizle, elektrikli araç şarj altyapınızı güvenle işletebilirsiniz. Kurumsal müşterilerimize özel fiyatlandırma ve esnek ödeme seçenekleri sunarak, sürdürülebilir enerji dönüşümünde iş ortağınız oluyoruz.
           </SplitParagraph>
         </motion.div>
 

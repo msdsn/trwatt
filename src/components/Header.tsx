@@ -137,8 +137,8 @@ export default function Header() {
               transition={{ duration: 0.5 }}
             >
               <Image
-                src="/voltgo-1.png"
-                alt="VoltGo Logo"
+                src="/logo.png"
+                alt="Trwatt Logo"
                 width={50}
                 height={50}
                 className="rounded-lg"

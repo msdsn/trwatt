@@ -73,7 +73,7 @@ export default function Contact() {
                     </svg>
                   ),
                   title: t('contact.email'),
-                  content: "info@waltgo.com\ndestek@waltgo.com"
+                  content: "info@trwatt.com\ndestek@trwatt.com"
                 }
               ].map((item, index) => (
                 <motion.div 
@@ -182,7 +182,7 @@ export default function Contact() {
               >
                 <Image
                   src="/mapp.png"
-                  alt="Waltgo Bayi Konum Haritası"
+                  alt="Trwatt Bayi Konum Haritası"
                   width={500}
                   height={300}
                   className="w-full h-64 object-cover"

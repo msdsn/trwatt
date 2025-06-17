@@ -62,10 +62,10 @@ const translations = {
     
     // About
     'about.title': 'Hakkımızda',
-    'about.description1': 'Waltgo, 2024 yılında VoltGo\'nun yetkili bayisi olarak elektrikli araç şarj çözümleri alanında hizmet vermeye başlamıştır. EMRA onaylı şarj ağı operatörü VoltGo\'nun kaliteli ürünlerini müşterilerimize sunarak elektrikli mobilite dönüşümünde aktif rol oynamaktayız.',
+    'about.description1': 'Trwatt, 2024 yılında VoltGo\'nun yetkili bayisi olarak elektrikli araç şarj çözümleri alanında hizmet vermeye başlamıştır. EMRA onaylı şarj ağı operatörü VoltGo\'nun kaliteli ürünlerini müşterilerimize sunarak elektrikli mobilite dönüşümünde aktif rol oynamaktayız.',
     'about.description2': 'DC Hızlı Şarj, AC Şarj İstasyonları ve Wallbox çözümleri ile hem bireysel hem de kurumsal müşterilerimize en uygun şarj altyapısını sağlıyoruz. Gelişmiş teknoloji ve güvenilir hizmet anlayışımızla sektörde öncü konumumuzu sürdürüyoruz.',
     'about.whereTitle': 'Neredeyiz?',
-    'about.whereDesc': 'Waltgo olarak İstanbul merkezli hizmet veriyoruz. VoltGo\'nun Adana Hacı Sabancı OSB\'de bulunan 65.000 m² toplam alana sahip modern üretim tesislerinde üretilen ürünleri, müşterilerimize en hızlı ve güvenilir şekilde ulaştırıyoruz.',
+    'about.whereDesc': 'Trwatt olarak İstanbul merkezli hizmet veriyoruz. VoltGo\'nun Adana Hacı Sabancı OSB\'de bulunan 65.000 m² toplam alana sahip modern üretim tesislerinde üretilen ürünleri, müşterilerimize en hızlı ve güvenilir şekilde ulaştırıyoruz.',
     
     // Contact
     'contact.title': 'İletişim',
@@ -86,14 +86,14 @@ const translations = {
     'contact.sendMessage': 'Mesaj Gönder',
     
     // Footer
-    'footer.partnership': 'Waltgo & VoltGo Ortaklığı - Elektrikli Mobilite Geleceği için Güçlü İş Birliği',
+    'footer.partnership': 'Trwatt & VoltGo Ortaklığı - Elektrikli Mobilite Geleceği için Güçlü İş Birliği',
     'footer.description': 'VoltGo\'nun yetkili bayisi olarak elektrikli araç şarj çözümlerinde güvenilir hizmet sunuyoruz.',
     'footer.quickLinks': 'Hızlı Linkler',
     'footer.services': 'Hizmetlerimiz',
-    'footer.rights': '2024 Waltgo - VoltGo Yetkili Bayisi. Tüm hakları saklıdır.',
+    'footer.rights': '2024 Trwatt - VoltGo Yetkili Bayisi. Tüm hakları saklıdır.',
     
     // Company Info
-    'company.name': 'Waltgo',
+    'company.name': 'Trwatt',
     'company.tagline': 'VoltGo Yetkili Bayisi'
   },
   en: {
@@ -145,10 +145,10 @@ const translations = {
     
     // About
     'about.title': 'About Us',
-    'about.description1': 'Waltgo started serving in the field of electric vehicle charging solutions as an authorized dealer of VoltGo in 2024. We play an active role in the electric mobility transformation by offering quality products of VoltGo, an EMRA-approved charging network operator, to our customers.',
+    'about.description1': 'Trwatt started serving in the field of electric vehicle charging solutions as an authorized dealer of VoltGo in 2024. We play an active role in the electric mobility transformation by offering quality products of VoltGo, an EMRA-approved charging network operator, to our customers.',
     'about.description2': 'We provide the most suitable charging infrastructure to both individual and corporate customers with DC Fast Charging, AC Charging Stations and Wallbox solutions. We maintain our leading position in the sector with our advanced technology and reliable service approach.',
     'about.whereTitle': 'Where are we?',
-    'about.whereDesc': 'As Waltgo, we provide services based in Istanbul. We deliver the products produced in VoltGo\'s modern production facilities with a total area of 65,000 m² located in Adana Hacı Sabancı OSB to our customers in the fastest and most reliable way.',
+    'about.whereDesc': 'As Trwatt, we provide services based in Istanbul. We deliver the products produced in VoltGo\'s modern production facilities with a total area of 65,000 m² located in Adana Hacı Sabancı OSB to our customers in the fastest and most reliable way.',
     
     // Contact
     'contact.title': 'Contact',
@@ -169,14 +169,14 @@ const translations = {
     'contact.sendMessage': 'Send Message',
     
     // Footer
-    'footer.partnership': 'Waltgo & VoltGo Partnership - Strong Collaboration for Electric Mobility Future',
+    'footer.partnership': 'Trwatt & VoltGo Partnership - Strong Collaboration for Electric Mobility Future',
     'footer.description': 'As an authorized dealer of VoltGo, we provide reliable service in electric vehicle charging solutions.',
     'footer.quickLinks': 'Quick Links',
     'footer.services': 'Our Services',
-    'footer.rights': '2024 Waltgo - VoltGo Authorized Dealer. All rights reserved.',
+    'footer.rights': '2024 Trwatt - VoltGo Authorized Dealer. All rights reserved.',
     
     // Company Info
-    'company.name': 'Waltgo',
+    'company.name': 'Trwatt',
     'company.tagline': 'VoltGo Authorized Dealer'
   }
 };
