@@ -33,7 +33,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: "/main.jpg",
+    src: "/main_0.jpg",
     alt: "VOLTGO Genel",
     title: "VOLTGO Ekosistemi"
   }

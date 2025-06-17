@@ -132,7 +132,7 @@ export default function Hero() {
           }}
         >
           <Image
-            src="/main4.jpeg"
+            src="/main_0.jpg"
             alt="Electric Vehicle Charger Solutions"
             fill
             className="object-cover object-center"
