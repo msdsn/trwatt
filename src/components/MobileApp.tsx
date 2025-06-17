@@ -77,7 +77,7 @@ const PhoneMockup = () => {
               
               <div className="text-white relative z-10">
                 <div className="flex items-center justify-between mb-8">
-                  <h3 className="text-xl font-bold">VoltGo</h3>
+                  <h3 className="text-xl font-bold">VOLTGO</h3>
                   <motion.div 
                     className="w-6 h-6 bg-white/20 rounded-full"
                     animate={{ scale: [1, 1.2, 1] }}

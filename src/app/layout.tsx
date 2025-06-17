@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trwatt - VoltGo Yetkili Bayisi | Elektrikli Araç Şarj Çözümleri",
-  description: "VoltGo'nun yetkili bayisi Trwatt ile elektrikli araç şarj çözümlerini keşfedin. DC hızlı şarj, AC şarj istasyonları ve Wallbox çözümleri.",
+  title: "TRWATT - VOLTGO Yetkili Bayisi | Elektrikli Araç Şarj Çözümleri",
+  description: "VOLTGO'nun yetkili bayisi TRWATT ile elektrikli araç şarj çözümlerini keşfedin. DC hızlı şarj, AC şarj istasyonları ve Wallbox çözümleri.",
   keywords: "voltgo, elektrikli araç şarj, şarj istasyonu, dc şarj, elektrikli araç, şarj cihazı, bayi",
 };
 

@@ -121,7 +121,7 @@ export default function Hero() {
   ];
 
   return (
-    <section ref={ref} className="relative overflow-hidden" id="home">
+    <section ref={ref} className="relative overflow-hidden -mt-0 pt-0" id="home">
       <div className="w-full h-screen relative overflow-hidden">
         {/* Ken-Burns background image */}
         <motion.div

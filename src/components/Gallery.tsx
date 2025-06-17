@@ -4,7 +4,7 @@ const galleryImages = [
   {
     id: 1,
     src: "/1.jpg",
-    alt: "VoltGo Şarj İstasyonu",
+    alt: "VOLTGO Şarj İstasyonu",
     title: "Modern Şarj İstasyonları"
   },
   {
@@ -34,8 +34,8 @@ const galleryImages = [
   {
     id: 6,
     src: "/main.jpg",
-    alt: "VoltGo Genel",
-    title: "VoltGo Ekosistemi"
+    alt: "VOLTGO Genel",
+    title: "VOLTGO Ekosistemi"
   }
 ];
 
@@ -46,7 +46,7 @@ export default function Gallery() {
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold mb-4 text-gray-800">Galeri</h3>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            VoltGo ürünleri ve şarj istasyonlarından görüntüler
+            VOLTGO ürünleri ve şarj istasyonlarından görüntüler
           </p>
         </div>
         

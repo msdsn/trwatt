@@ -121,8 +121,8 @@ export default function Footer() {
                   transition={{ duration: 0.5 }}
                 >
                   <Image
-                    src="/voltgo-1.png"
-                    alt="VoltGo Logo"
+                    src="/TRWatt_logo.png"
+                    alt="TR Watt Logo"
                     width={50}
                     height={50}
                     className="rounded-lg"

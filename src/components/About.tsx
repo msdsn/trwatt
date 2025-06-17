@@ -117,7 +117,7 @@ export default function About() {
         </svg>
       ),
       title: "İnovasyon",
-      description: "VoltGo'nun en son teknolojilerini takip ederek yenilikçi çözümler sunuyoruz."
+                  description: "VOLTGO'nun en son teknolojilerini takip ederek yenilikçi çözümler sunuyoruz."
     },
     {
       icon: (
@@ -126,7 +126,7 @@ export default function About() {
         </svg>
       ),
       title: "Kalite",
-      description: "VoltGo'nun yüksek kalite standartlarında ürün ve hizmet garantisi veriyoruz."
+                  description: "VOLTGO'nun yüksek kalite standartlarında ürün ve hizmet garantisi veriyoruz."
     },
     {
       icon: (
@@ -162,7 +162,7 @@ export default function About() {
           
           <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
             <SplitParagraph>
-              {`Trwatt, ${t('about.description1')}`}
+              {`TRWATT, ${t('about.description1')}`}
             </SplitParagraph>
             <SplitParagraph>
               {t('about.description2')}
@@ -232,7 +232,7 @@ export default function About() {
                 >
                   <Image
                     src="/1.jpg"
-                    alt="VoltGo Üretim Tesisi"
+                    alt="VOLTGO Üretim Tesisi"
                     width={300}
                     height={200}
                     className="rounded-lg shadow-md w-full h-48 object-cover"
@@ -252,7 +252,7 @@ export default function About() {
                     }
                   }}
                 >
-                  <FloatingLogo src="/voltgo-1.png" alt="VoltGo" delay={0} />
+                  <FloatingLogo src="/TRWatt_logo.png" alt="TR Watt" delay={0} />
                   <motion.div 
                     className="w-16 h-12 bg-gray-100 rounded-lg flex items-center justify-center"
                     initial={{ opacity: 0, scale: 0 }}
@@ -385,7 +385,7 @@ export default function About() {
           </motion.h3>
           
           <SplitParagraph className="text-lg text-gray-600 leading-relaxed relative z-10">
-            Trwatt olarak, VoltGo'nun kurumsal ve ticari çözümlerini müşterilerimize sunuyoruz. Gelir modeli odaklı yaklaşımımızla, şarj istasyonu yatırımlarınızın karlılığını maksimize ediyoruz. Finansal danışmanlık, teknik destek ve sürekli bakım hizmetlerimizle, elektrikli araç şarj altyapınızı güvenle işletebilirsiniz. Kurumsal müşterilerimize özel fiyatlandırma ve esnek ödeme seçenekleri sunarak, sürdürülebilir enerji dönüşümünde iş ortağınız oluyoruz.
+                TRWATT olarak, VOLTGO'nun kurumsal ve ticari çözümlerini müşterilerimize sunuyoruz. Gelir modeli odaklı yaklaşımımızla, şarj istasyonu yatırımlarınızın karlılığını maksimize ediyoruz. Finansal danışmanlık, teknik destek ve sürekli bakım hizmetlerimizle, elektrikli araç şarj altyapınızı güvenle işletebilirsiniz. Kurumsal müşterilerimize özel fiyatlandırma ve esnek ödeme seçenekleri sunarak, sürdürülebilir enerji dönüşümünde iş ortağınız oluyoruz.
           </SplitParagraph>
         </motion.div>
 

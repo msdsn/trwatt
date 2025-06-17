@@ -116,14 +116,14 @@ export default function Contact() {
                   transition={{ duration: 0.5 }}
                 >
                   <Image
-                    src="/voltgo-1.png"
-                    alt="VoltGo"
+                                          src="/TRWatt_logo.png"
+                                          alt="TR Watt"
                     width={24}
                     height={24}
                     className="mr-2"
                   />
                 </motion.div>
-                VoltGo Merkez İletişim
+                VOLTGO Merkez İletişim
               </h5>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
@@ -182,7 +182,7 @@ export default function Contact() {
               >
                 <Image
                   src="/mapp.png"
-                  alt="Trwatt Bayi Konum Haritası"
+                  alt="TRWATT Bayi Konum Haritası"
                   width={500}
                   height={300}
                   className="w-full h-64 object-cover"
@@ -264,7 +264,7 @@ export default function Contact() {
                 whileFocus={{ scale: 1.02 }}
               >
                 <option value="">{t('contact.subject')}</option>
-                <option value="urun-bilgi">VoltGo Ürün Bilgileri</option>
+                <option value="urun-bilgi">VOLTGO Ürün Bilgileri</option>
                 <option value="teknik-destek">Teknik Destek</option>
                 <option value="bayi-basvuru">Bayi Başvurusu</option>
                 <option value="fiyat-teklifi">Fiyat Teklifi</option>

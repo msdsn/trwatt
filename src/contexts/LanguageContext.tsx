@@ -29,7 +29,7 @@ const translations = {
     
     // Hero
     'hero.title': 'Electric Vehicle Charger Solutions',
-    'hero.subtitle': 'VoltGo',
+    'hero.subtitle': 'VOLTGO',
     'hero.description': 'Gelecek nesil elektrikli araç şarj teknolojileri ile sürdürülebilir mobiliteye geçiş yapın.',
     'hero.readMore': 'DEVAMINI OKU',
     'hero.downloadCatalog': 'Katalog İndir',
@@ -38,9 +38,9 @@ const translations = {
     'hero.benefit3': '7/24 Aktif',
     
     // Mobile App
-    'mobileApp.title': 'VoltGo Mobile App –',
+    'mobileApp.title': 'VOLTGO Mobile App –',
     'mobileApp.subtitle': 'Şimdi İndirin',
-    'mobileApp.description': 'VoltGo mobil uygulaması ile elektrikli araç şarj istasyonlarını kolayca bulun, şarj işlemlerinizi yönetin ve gerçek zamanlı bilgilere erişin.',
+    'mobileApp.description': 'VOLTGO mobil uygulaması ile elektrikli araç şarj istasyonlarını kolayca bulun, şarj işlemlerinizi yönetin ve gerçek zamanlı bilgilere erişin.',
     'mobileApp.feature1': 'Ücretsiz ve Erişilebilir',
     'mobileApp.feature1Desc': 'Tamamen ücretsiz kullanım',
     'mobileApp.feature2': 'Anlaşılır ve Faydalı',
@@ -50,7 +50,7 @@ const translations = {
     
     // Products
     'products.title': 'Ürün Portföyümüz',
-    'products.subtitle': 'VoltGo\'nun en gelişmiş elektrikli araç şarj çözümlerini keşfedin',
+    'products.subtitle': 'VOLTGO\'nun en gelişmiş elektrikli araç şarj çözümlerini keşfedin',
     'products.product1': 'Ayrık Üniteli Şarj Cihazı',
     'products.product1Desc': 'Yüksek performanslı ayrık üniteli elektrikli araç şarj çözümü. Modüler tasarımı ile farklı kapasitelerde kullanılabilir.',
     'products.product2': 'DC Şarj Cihazı',
@@ -62,14 +62,14 @@ const translations = {
     
     // About
     'about.title': 'Hakkımızda',
-    'about.description1': 'Trwatt, 2024 yılında VoltGo\'nun yetkili bayisi olarak elektrikli araç şarj çözümleri alanında hizmet vermeye başlamıştır. EMRA onaylı şarj ağı operatörü VoltGo\'nun kaliteli ürünlerini müşterilerimize sunarak elektrikli mobilite dönüşümünde aktif rol oynamaktayız.',
+    'about.description1': 'TRWATT, 2024 yılında VOLTGO\'nun yetkili bayisi olarak elektrikli araç şarj çözümleri alanında hizmet vermeye başlamıştır. EMRA onaylı şarj ağı operatörü VOLTGO\'nun kaliteli ürünlerini müşterilerimize sunarak elektrikli mobilite dönüşümünde aktif rol oynamaktayız.',
     'about.description2': 'DC Hızlı Şarj, AC Şarj İstasyonları ve Wallbox çözümleri ile hem bireysel hem de kurumsal müşterilerimize en uygun şarj altyapısını sağlıyoruz. Gelişmiş teknoloji ve güvenilir hizmet anlayışımızla sektörde öncü konumumuzu sürdürüyoruz.',
     'about.whereTitle': 'Neredeyiz?',
-    'about.whereDesc': 'Trwatt olarak İstanbul merkezli hizmet veriyoruz. VoltGo\'nun Adana Hacı Sabancı OSB\'de bulunan 65.000 m² toplam alana sahip modern üretim tesislerinde üretilen ürünleri, müşterilerimize en hızlı ve güvenilir şekilde ulaştırıyoruz.',
+    'about.whereDesc': 'TRWATT olarak İstanbul merkezli hizmet veriyoruz. VOLTGO\'nun Adana Hacı Sabancı OSB\'de bulunan 65.000 m² toplam alana sahip modern üretim tesislerinde üretilen ürünleri, müşterilerimize en hızlı ve güvenilir şekilde ulaştırıyoruz.',
     
     // Contact
     'contact.title': 'İletişim',
-    'contact.subtitle': 'VoltGo ürünleri hakkında bilgi almak ve teknik destek için bizimle iletişime geçin',
+    'contact.subtitle': 'VOLTGO ürünleri hakkında bilgi almak ve teknik destek için bizimle iletişime geçin',
     'contact.getInTouch': 'Bizimle İletişime Geçin',
     'contact.address': 'Adres',
     'contact.phone': 'Telefon',
@@ -86,15 +86,15 @@ const translations = {
     'contact.sendMessage': 'Mesaj Gönder',
     
     // Footer
-    'footer.partnership': 'Trwatt & VoltGo Ortaklığı - Elektrikli Mobilite Geleceği için Güçlü İş Birliği',
-    'footer.description': 'VoltGo\'nun yetkili bayisi olarak elektrikli araç şarj çözümlerinde güvenilir hizmet sunuyoruz.',
+    'footer.partnership': 'TRWATT & VOLTGO Ortaklığı - Elektrikli Mobilite Geleceği için Güçlü İş Birliği',
+    'footer.description': 'VOLTGO\'nun yetkili bayisi olarak elektrikli araç şarj çözümlerinde güvenilir hizmet sunuyoruz.',
     'footer.quickLinks': 'Hızlı Linkler',
     'footer.services': 'Hizmetlerimiz',
-    'footer.rights': '2024 Trwatt - VoltGo Yetkili Bayisi. Tüm hakları saklıdır.',
+    'footer.rights': '2024 TRWATT - VOLTGO Yetkili Bayisi. Tüm hakları saklıdır.',
     
     // Company Info
-    'company.name': 'Trwatt',
-    'company.tagline': 'VoltGo Yetkili Bayisi'
+      'company.name': 'TRWATT',
+  'company.tagline': 'VOLTGO Yetkili Bayisi'
   },
   en: {
     // Header
@@ -112,7 +112,7 @@ const translations = {
     
     // Hero
     'hero.title': 'Electric Vehicle Charger Solutions',
-    'hero.subtitle': 'VoltGo',
+    'hero.subtitle': 'VOLTGO',
     'hero.description': 'Transition to sustainable mobility with next-generation electric vehicle charging technologies.',
     'hero.readMore': 'READ MORE',
     'hero.downloadCatalog': 'Download Catalog',
@@ -121,9 +121,9 @@ const translations = {
     'hero.benefit3': '24/7 Active',
     
     // Mobile App
-    'mobileApp.title': 'VoltGo Mobile App –',
+    'mobileApp.title': 'VOLTGO Mobile App –',
     'mobileApp.subtitle': 'Download Now',
-    'mobileApp.description': 'Easily find electric vehicle charging stations, manage your charging operations and access real-time information with the VoltGo mobile application.',
+    'mobileApp.description': 'Easily find electric vehicle charging stations, manage your charging operations and access real-time information with the VOLTGO mobile application.',
     'mobileApp.feature1': 'Free and Accessible',
     'mobileApp.feature1Desc': 'Completely free to use',
     'mobileApp.feature2': 'Understandable and Useful',
@@ -133,7 +133,7 @@ const translations = {
     
     // Products
     'products.title': 'Our Product Portfolio',
-    'products.subtitle': 'Discover VoltGo\'s most advanced electric vehicle charging solutions',
+    'products.subtitle': 'Discover VOLTGO\'s most advanced electric vehicle charging solutions',
     'products.product1': 'Separate Unit Charging Device',
     'products.product1Desc': 'High-performance separate unit electric vehicle charging solution. Can be used in different capacities with its modular design.',
     'products.product2': 'DC Charging Device',
@@ -145,14 +145,14 @@ const translations = {
     
     // About
     'about.title': 'About Us',
-    'about.description1': 'Trwatt started serving in the field of electric vehicle charging solutions as an authorized dealer of VoltGo in 2024. We play an active role in the electric mobility transformation by offering quality products of VoltGo, an EMRA-approved charging network operator, to our customers.',
+    'about.description1': 'TRWATT started serving in the field of electric vehicle charging solutions as an authorized dealer of VOLTGO in 2024. We play an active role in the electric mobility transformation by offering quality products of VOLTGO, an EMRA-approved charging network operator, to our customers.',
     'about.description2': 'We provide the most suitable charging infrastructure to both individual and corporate customers with DC Fast Charging, AC Charging Stations and Wallbox solutions. We maintain our leading position in the sector with our advanced technology and reliable service approach.',
     'about.whereTitle': 'Where are we?',
-    'about.whereDesc': 'As Trwatt, we provide services based in Istanbul. We deliver the products produced in VoltGo\'s modern production facilities with a total area of 65,000 m² located in Adana Hacı Sabancı OSB to our customers in the fastest and most reliable way.',
+    'about.whereDesc': 'As TRWATT, we provide services based in Istanbul. We deliver the products produced in VOLTGO\'s modern production facilities with a total area of 65,000 m² located in Adana Hacı Sabancı OSB to our customers in the fastest and most reliable way.',
     
     // Contact
     'contact.title': 'Contact',
-    'contact.subtitle': 'Contact us for information about VoltGo products and technical support',
+    'contact.subtitle': 'Contact us for information about VOLTGO products and technical support',
     'contact.getInTouch': 'Get In Touch With Us',
     'contact.address': 'Address',
     'contact.phone': 'Phone',
@@ -169,15 +169,15 @@ const translations = {
     'contact.sendMessage': 'Send Message',
     
     // Footer
-    'footer.partnership': 'Trwatt & VoltGo Partnership - Strong Collaboration for Electric Mobility Future',
-    'footer.description': 'As an authorized dealer of VoltGo, we provide reliable service in electric vehicle charging solutions.',
+    'footer.partnership': 'TRWATT & VOLTGO Partnership - Strong Collaboration for Electric Mobility Future',
+    'footer.description': 'As an authorized dealer of VOLTGO, we provide reliable service in electric vehicle charging solutions.',
     'footer.quickLinks': 'Quick Links',
     'footer.services': 'Our Services',
-    'footer.rights': '2024 Trwatt - VoltGo Authorized Dealer. All rights reserved.',
+    'footer.rights': '2024 TRWATT - VOLTGO Authorized Dealer. All rights reserved.',
     
     // Company Info
-    'company.name': 'Trwatt',
-    'company.tagline': 'VoltGo Authorized Dealer'
+      'company.name': 'TRWATT',
+  'company.tagline': 'VOLTGO Authorized Dealer'
   }
 };
 
