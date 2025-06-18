@@ -127,19 +127,19 @@ export default function Contact() {
                     className="mr-2"
                   />
                 </motion.a>
-                VOLTGO Merkez İletişim
+                {t('contact.voltgoCenter')}
               </h5>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
-                  <span>Telefon:</span>
+                  <span>{t('contact.phone2')}</span>
                   <span className="font-medium">444 85 87</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>E-posta:</span>
+                  <span>{t('contact.email2')}</span>
                   <span className="font-medium">info@voltgo.com.tr</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Adres:</span>
+                  <span>{t('contact.address2')}</span>
                   <span className="font-medium text-sm">Acıdere OSB Mah. Çanakkale Cad. No: 15<br />Sarıçam / ADANA</span>
                 </div>
               </div>
@@ -156,16 +156,16 @@ export default function Contact() {
               <h5 className="font-semibold mb-4 text-gray-800">{t('contact.workingHours')}</h5>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
-                  <span>Pazartesi - Cuma:</span>
+                  <span>{t('contact.monday')}</span>
                   <span className="font-medium">09:00 - 18:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Cumartesi:</span>
+                  <span>{t('contact.saturday')}</span>
                   <span className="font-medium">09:00 - 15:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Pazar:</span>
-                  <span className="font-medium text-red-500">Kapalı</span>
+                  <span>{t('contact.sunday')}</span>
+                  <span className="font-medium text-red-500">{t('contact.closed')}</span>
                 </div>
               </div>
             </motion.div>
@@ -268,12 +268,12 @@ export default function Contact() {
                 whileFocus={{ scale: 1.02 }}
               >
                 <option value="">{t('contact.subject')}</option>
-                <option value="urun-bilgi">VOLTGO Ürün Bilgileri</option>
-                <option value="teknik-destek">Teknik Destek</option>
-                <option value="bayi-basvuru">Bayi Başvurusu</option>
-                <option value="fiyat-teklifi">Fiyat Teklifi</option>
-                <option value="kurulum">Kurulum Hizmeti</option>
-                <option value="genel">Genel Sorular</option>
+                <option value="urun-bilgi">{t('contact.productInfo')}</option>
+                <option value="teknik-destek">{t('contact.technicalSupport')}</option>
+                <option value="bayi-basvuru">{t('contact.dealerApplication')}</option>
+                <option value="fiyat-teklifi">{t('contact.priceQuote')}</option>
+                <option value="kurulum">{t('contact.installationService')}</option>
+                <option value="genel">{t('contact.generalQuestions')}</option>
               </motion.select>
               
               <motion.textarea
@@ -341,7 +341,7 @@ export default function Contact() {
           initial={{ y: 10, opacity: 0 }}
           whileHover={{ y: 0, opacity: 1 }}
         >
-          WhatsApp ile iletişime geç
+          {t('contact.whatsapp')}
           <div className="absolute top-full right-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-800"></div>
         </motion.div>
         

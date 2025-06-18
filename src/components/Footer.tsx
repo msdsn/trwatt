@@ -37,11 +37,11 @@ export default function Footer() {
   ];
 
   const services = [
-    "DC Hızlı Şarj Çözümleri",
-    "AC Şarj İstasyonları", 
-    "Wallbox Sistemleri",
-    "Teknik Destek",
-    "Kurulum & Bakım"
+    t('services.dcFastCharging'),
+    t('services.acChargingStations'),
+    t('services.wallboxSystems'),
+    t('services.technicalSupport'),
+    t('services.installationMaintenance')
   ];
 
   return (
@@ -390,10 +390,14 @@ export default function Footer() {
                 visible: { opacity: 1, y: 0 }
               }}
             >
-              {["Gizlilik Politikası", "Kullanım Şartları", "Çerez Politikası"].map((item, index) => (
+              {[
+                { key: 'legal.privacyPolicy', href: '#' },
+                { key: 'legal.termsOfUse', href: '#' },
+                { key: 'legal.cookiePolicy', href: '#' }
+              ].map((item, index) => (
                 <motion.a 
                   key={index}
-                  href="#" 
+                  href={item.href} 
                   className="text-gray-400 hover:text-white transition-colors"
                   whileHover={{ 
                     color: '#ffffff',
@@ -401,7 +405,7 @@ export default function Footer() {
                   }}
                   transition={{ type: 'spring', stiffness: 300 }}
                 >
-                  {item}
+                  {t(item.key)}
                 </motion.a>
               ))}
             </motion.div>

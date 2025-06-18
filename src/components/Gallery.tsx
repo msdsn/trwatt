@@ -1,52 +1,57 @@
-import Image from "next/image";
+"use client";
 
-const galleryImages = [
-  {
-    id: 1,
-    src: "/1.jpg",
-    alt: "VOLTGO Şarj İstasyonu",
-    title: "Modern Şarj İstasyonları"
-  },
-  {
-    id: 2,
-    src: "/2.jpg",
-    alt: "Elektrikli Araç Şarj",
-    title: "Gelişmiş Teknoloji"
-  },
-  {
-    id: 3,
-    src: "/AYRIK-UNITELI-1-540x640.jpg",
-    alt: "Ayrık Üniteli Cihaz",
-    title: "Ayrık Üniteli Çözümler"
-  },
-  {
-    id: 4,
-    src: "/DC-Cihazı.jpg",
-    alt: "DC Hızlı Şarj",
-    title: "DC Hızlı Şarj Teknolojisi"
-  },
-  {
-    id: 5,
-    src: "/SUPER-HIZLI-1-540x640.jpg",
-    alt: "Süper Hızlı Şarj",
-    title: "Ultra Hızlı Şarj Çözümleri"
-  },
-  {
-    id: 6,
-    src: "/main_0.jpg",
-    alt: "VOLTGO Genel",
-    title: "VOLTGO Ekosistemi"
-  }
-];
+import Image from "next/image";
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Gallery() {
+  const { t } = useLanguage();
+  
+  const galleryImages = [
+    {
+      id: 1,
+      src: "/1.jpg",
+      alt: "VOLTGO Şarj İstasyonu",
+      title: t('gallery.image1Title')
+    },
+    {
+      id: 2,
+      src: "/2.jpg",
+      alt: "Elektrikli Araç Şarj",
+      title: t('gallery.image2Title')
+    },
+    {
+      id: 3,
+      src: "/AYRIK-UNITELI-1-540x640.jpg",
+      alt: "Ayrık Üniteli Cihaz",
+      title: t('gallery.image3Title')
+    },
+    {
+      id: 4,
+      src: "/DC-Cihazı.jpg",
+      alt: "DC Hızlı Şarj",
+      title: t('gallery.image4Title')
+    },
+    {
+      id: 5,
+      src: "/SUPER-HIZLI-1-540x640.jpg",
+      alt: "Süper Hızlı Şarj",
+      title: t('gallery.image5Title')
+    },
+    {
+      id: 6,
+      src: "/main_0.jpg",
+      alt: "VOLTGO Genel",
+      title: t('gallery.image6Title')
+    }
+  ];
+
   return (
     <section id="gallery" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h3 className="text-4xl font-bold mb-4 text-gray-800">Galeri</h3>
+          <h3 className="text-4xl font-bold mb-4 text-gray-800">{t('gallery.title')}</h3>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            VOLTGO ürünleri ve şarj istasyonlarından görüntüler
+            {t('gallery.subtitle')}
           </p>
         </div>
         
@@ -80,7 +85,7 @@ export default function Gallery() {
         
         <div className="text-center mt-12">
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
-            Daha Fazla Görüntü
+            {t('gallery.moreImages')}
           </button>
         </div>
       </div>

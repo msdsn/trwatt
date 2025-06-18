@@ -6,7 +6,7 @@ import { useRef, useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 // 3D Phone Tilt Component
-const PhoneMockup = () => {
+const PhoneMockup = ({ t }: { t: (key: string) => string }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState(false);
 
@@ -90,7 +90,7 @@ const PhoneMockup = () => {
                   whileHover={{ backgroundColor: 'rgba(255,255,255,0.15)' }}
                 >
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-sm">En Yakın İstasyon</span>
+                    <span className="text-sm">{t('mobileApp.nearestStation')}</span>
                     <span className="text-sm">1.2 km</span>
                   </div>
                   <motion.div 
@@ -99,13 +99,13 @@ const PhoneMockup = () => {
                     transition={{ duration: 3, repeat: Infinity }}
                   />
                   <div className="flex justify-between">
-                    <span className="text-xs">DC Hızlı Şarj</span>
+                    <span className="text-xs">{t('mobileApp.dcFastCharging')}</span>
                     <motion.span 
                       className="text-xs"
                       animate={{ color: ['#ffffff', '#10b981', '#ffffff'] }}
                       transition={{ duration: 2, repeat: Infinity }}
                     >
-                      Müsait
+                      {t('mobileApp.available')}
                     </motion.span>
                   </div>
                 </motion.div>
@@ -363,7 +363,7 @@ export default function MobileApp() {
           </motion.div>
           
           {/* Right - Phone Mockup */}
-          <PhoneMockup />
+          <PhoneMockup t={t} />
         </div>
       </div>
     </section>

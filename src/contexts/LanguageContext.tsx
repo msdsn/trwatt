@@ -28,7 +28,7 @@ const translations = {
     'nav.policies': 'Politikalarımız',
     
     // Hero
-    'hero.title': 'Electric Vehicle Charger Solutions',
+    'hero.title': 'Elektrikli Araç Şarj Çözümleri',
     'hero.subtitle': 'VOLTGO',
     'hero.description': 'Gelecek nesil elektrikli araç şarj teknolojileri ile sürdürülebilir mobiliteye geçiş yapın.',
     'hero.readMore': 'DEVAMINI OKU',
@@ -93,8 +93,92 @@ const translations = {
     'footer.rights': '2024 TRWATT - VOLTGO Yetkili Bayisi. Tüm hakları saklıdır.',
     
     // Company Info
-      'company.name': 'TRWATT',
-  'company.tagline': 'VOLTGO Yetkili Bayisi'
+    'company.name': 'TRWATT',
+    'company.tagline': 'VOLTGO Yetkili Bayisi',
+    
+    // Services
+    'services.dcFastCharging': 'DC Hızlı Şarj Çözümleri',
+    'services.acChargingStations': 'AC Şarj İstasyonları',
+    'services.wallboxSystems': 'Wallbox Sistemleri',
+    'services.technicalSupport': 'Teknik Destek',
+    'services.installationMaintenance': 'Kurulum & Bakım',
+    
+    // Legal
+    'legal.privacyPolicy': 'Gizlilik Politikası',
+    'legal.termsOfUse': 'Kullanım Şartları',
+    'legal.cookiePolicy': 'Çerez Politikası',
+    
+    // Products - Features
+    'features.modularDesign': 'Modüler tasarım',
+    'features.highEfficiency': 'Yüksek verimlilik', 
+    'features.easyInstallation': 'Kolay kurulum',
+    'features.fastCharging': 'Hızlı şarj',
+    'features.ccsSupport': 'CCS/CHAdeMO desteği',
+    'features.smartPayment': 'Akıllı ödeme sistemi',
+    'features.ultraFastCharging': 'Ultra hızlı şarj',
+    'features.advancedCooling': 'Gelişmiş soğutma',
+    'features.remoteMonitoring': 'Uzaktan izleme',
+    'features.title': 'Özellikler:',
+    
+    // Solutions Submenu
+    'solutions.dcFastCharging': 'DC Hızlı Şarj',
+    'solutions.acChargingStation': 'AC Şarj İstasyonu',
+    'solutions.wallboxSolutions': 'Wallbox Çözümleri',
+    'solutions.corporateSolutions': 'Kurumsal Çözümler',
+    'solutions.commercialSolutions': 'Ticari Çözümler',
+    
+    // Gallery
+    'gallery.title': 'Galeri',
+    'gallery.subtitle': 'VOLTGO ürünleri ve şarj istasyonlarından görüntüler',
+    'gallery.moreImages': 'Daha Fazla Görüntü',
+    'gallery.image1Title': 'Modern Şarj İstasyonları',
+    'gallery.image2Title': 'Gelişmiş Teknoloji',
+    'gallery.image3Title': 'Ayrık Üniteli Çözümler',
+    'gallery.image4Title': 'DC Hızlı Şarj Teknolojisi',
+    'gallery.image5Title': 'Ultra Hızlı Şarj Çözümleri',
+    'gallery.image6Title': 'VOLTGO Ekosistemi',
+    
+    // About - Station Cards & Values
+    'stationCard.dcTitle': 'DC – Hızlı Şarj İstasyonu',
+    'stationCard.dcDesc': 'İşletme sahipleri için ideal olan DC hızlı şarj istasyonları, yüksek güç kapasitesi ile elektrikli araçları kısa sürede şarj etme imkanı sunar. Ticari kullanım için optimize edilmiş bu çözümler, gelir getirici yatırım fırsatları yaratır.',
+    'stationCard.acTitle': 'AC – Şarj İstasyonu',
+    'stationCard.acDesc': 'Tüm uygulamalar için ideal olan AC şarj istasyonları, konut, ofis ve kamu alanları için mükemmel çözümler sunar. Maliyet etkin ve güvenilir bu sistemler, günlük şarj ihtiyaçlarını karşılamak için tasarlanmıştır.',
+    'about.corporateTitle': 'Kurumsal ve Ticari Çözümler',
+    'about.corporateDesc': 'TRWATT olarak, VOLTGO\'nun kurumsal ve ticari çözümlerini müşterilerimize sunuyoruz. Gelir modeli odaklı yaklaşımımızla, şarj istasyonu yatırımlarınızın karlılığını maksimize ediyoruz. Finansal danışmanlık, teknik destek ve sürekli bakım hizmetlerimizle, elektrikli araç şarj altyapınızı güvenle işletebilirsiniz. Kurumsal müşterilerimize özel fiyatlandırma ve esnek ödeme seçenekleri sunarak, sürdürülebilir enerji dönüşümünde iş ortağınız oluyoruz.',
+    'about.valuesTitle': 'Değerlerimiz',
+    'values.innovation': 'İnovasyon',
+    'values.innovationDesc': 'VOLTGO\'nun en son teknolojilerini takip ederek yenilikçi çözümler sunuyoruz.',
+    'values.quality': 'Kalite',
+    'values.qualityDesc': 'VOLTGO\'nun yüksek kalite standartlarında ürün ve hizmet garantisi veriyoruz.',
+    'values.sustainability': 'Sürdürülebilirlik',
+    'values.sustainabilityDesc': 'Çevre dostu çözümlerle gelecek nesillere temiz bir dünya bırakıyoruz.',
+    
+    // Contact - VOLTGO Center & Working Hours
+    'contact.voltgoCenter': 'VOLTGO Merkez İletişim',
+    'contact.phone2': 'Telefon:',
+    'contact.email2': 'E-posta:',
+    'contact.address2': 'Adres:',
+    'contact.monday': 'Pazartesi - Cuma:',
+    'contact.saturday': 'Cumartesi:',
+    'contact.sunday': 'Pazar:',
+    'contact.closed': 'Kapalı',
+    'contact.whatsapp': 'WhatsApp ile iletişime geç',
+    
+    // Contact Form Options
+    'contact.productInfo': 'VOLTGO Ürün Bilgileri',
+    'contact.technicalSupport': 'Teknik Destek',
+    'contact.dealerApplication': 'Bayi Başvurusu',
+    'contact.priceQuote': 'Fiyat Teklifi',
+    'contact.installationService': 'Kurulum Hizmeti',
+    'contact.generalQuestions': 'Genel Sorular',
+    
+    // Mobile App - Station Info
+    'mobileApp.nearestStation': 'En Yakın İstasyon',
+    'mobileApp.dcFastCharging': 'DC Hızlı Şarj',
+    'mobileApp.available': 'Müsait',
+    
+    // Header Mobile
+    'header.language': 'Dil:'
   },
   en: {
     // Header
@@ -176,8 +260,92 @@ const translations = {
     'footer.rights': '2024 TRWATT - VOLTGO Authorized Dealer. All rights reserved.',
     
     // Company Info
-      'company.name': 'TRWATT',
-  'company.tagline': 'VOLTGO Authorized Dealer'
+    'company.name': 'TRWATT',
+    'company.tagline': 'VOLTGO Authorized Dealer',
+    
+    // Services
+    'services.dcFastCharging': 'DC Fast Charging Solutions',
+    'services.acChargingStations': 'AC Charging Stations',
+    'services.wallboxSystems': 'Wallbox Systems',
+    'services.technicalSupport': 'Technical Support',
+    'services.installationMaintenance': 'Installation & Maintenance',
+    
+    // Legal
+    'legal.privacyPolicy': 'Privacy Policy',
+    'legal.termsOfUse': 'Terms of Use',
+    'legal.cookiePolicy': 'Cookie Policy',
+    
+    // Products - Features
+    'features.modularDesign': 'Modular Design',
+    'features.highEfficiency': 'High Efficiency',
+    'features.easyInstallation': 'Easy Installation',
+    'features.fastCharging': 'Fast Charging',
+    'features.ccsSupport': 'CCS/CHAdeMO Support',
+    'features.smartPayment': 'Smart Payment System',
+    'features.ultraFastCharging': 'Ultra Fast Charging',
+    'features.advancedCooling': 'Advanced Cooling',
+    'features.remoteMonitoring': 'Remote Monitoring',
+    'features.title': 'Features:',
+    
+    // Solutions Submenu
+    'solutions.dcFastCharging': 'DC Fast Charging',
+    'solutions.acChargingStation': 'AC Charging Station',
+    'solutions.wallboxSolutions': 'Wallbox Solutions',
+    'solutions.corporateSolutions': 'Corporate Solutions',
+    'solutions.commercialSolutions': 'Commercial Solutions',
+    
+    // Gallery
+    'gallery.title': 'Gallery',
+    'gallery.subtitle': 'Images from VOLTGO products and charging stations',
+    'gallery.moreImages': 'More Images',
+    'gallery.image1Title': 'Modern Charging Stations',
+    'gallery.image2Title': 'Advanced Technology',
+    'gallery.image3Title': 'Separate Unit Solutions',
+    'gallery.image4Title': 'DC Fast Charging Technology',
+    'gallery.image5Title': 'Ultra Fast Charging Solutions',
+    'gallery.image6Title': 'VOLTGO Ecosystem',
+    
+    // About - Station Cards & Values
+    'stationCard.dcTitle': 'DC – Fast Charging Station',
+    'stationCard.dcDesc': 'DC fast charging stations, ideal for business owners, offer the opportunity to charge electric vehicles in a short time with high power capacity. These solutions, optimized for commercial use, create revenue-generating investment opportunities.',
+    'stationCard.acTitle': 'AC – Charging Station',
+    'stationCard.acDesc': 'AC charging stations, ideal for all applications, offer excellent solutions for residential, office and public areas. These cost-effective and reliable systems are designed to meet daily charging needs.',
+    'about.corporateTitle': 'Corporate and Commercial Solutions',
+    'about.corporateDesc': 'As TRWATT, we offer VOLTGO\'s corporate and commercial solutions to our customers. With our revenue model-focused approach, we maximize the profitability of your charging station investments. With our financial consulting, technical support and continuous maintenance services, you can safely operate your electric vehicle charging infrastructure. By offering special pricing and flexible payment options to our corporate customers, we become your business partner in sustainable energy transformation.',
+    'about.valuesTitle': 'Our Values',
+    'values.innovation': 'Innovation',
+    'values.innovationDesc': 'We offer innovative solutions by following VOLTGO\'s latest technologies.',
+    'values.quality': 'Quality',
+    'values.qualityDesc': 'We guarantee products and services in VOLTGO\'s high quality standards.',
+    'values.sustainability': 'Sustainability',
+    'values.sustainabilityDesc': 'We leave a clean world to future generations with environmentally friendly solutions.',
+    
+    // Contact - VOLTGO Center & Working Hours
+    'contact.voltgoCenter': 'VOLTGO Center Communication',
+    'contact.phone2': 'Phone:',
+    'contact.email2': 'E-mail:',
+    'contact.address2': 'Address:',
+    'contact.monday': 'Monday - Friday:',
+    'contact.saturday': 'Saturday:',
+    'contact.sunday': 'Sunday:',
+    'contact.closed': 'Closed',
+    'contact.whatsapp': 'Contact via WhatsApp',
+    
+    // Contact Form Options
+    'contact.productInfo': 'VOLTGO Product Information',
+    'contact.technicalSupport': 'Technical Support',
+    'contact.dealerApplication': 'Dealer Application',
+    'contact.priceQuote': 'Price Quote',
+    'contact.installationService': 'Installation Service',
+    'contact.generalQuestions': 'General Questions',
+    
+    // Mobile App - Station Info
+    'mobileApp.nearestStation': 'Nearest Station',
+    'mobileApp.dcFastCharging': 'DC Fast Charging',
+    'mobileApp.available': 'Available',
+    
+    // Header Mobile
+    'header.language': 'Language:'
   }
 };
 

@@ -93,8 +93,8 @@ export default function About() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      title: "DC – Hızlı Şarj İstasyonu",
-      description: "İşletme sahipleri için ideal olan DC hızlı şarj istasyonları, yüksek güç kapasitesi ile elektrikli araçları kısa sürede şarj etme imkanı sunar. Ticari kullanım için optimize edilmiş bu çözümler, gelir getirici yatırım fırsatları yaratır.",
+      title: t('stationCard.dcTitle'),
+      description: t('stationCard.dcDesc'),
       gradient: "from-blue-50 to-blue-100",
       iconBg: "bg-blue-600"
     },
@@ -104,8 +104,8 @@ export default function About() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" />
         </svg>
       ),
-      title: "AC – Şarj İstasyonu",
-      description: "Tüm uygulamalar için ideal olan AC şarj istasyonları, konut, ofis ve kamu alanları için mükemmel çözümler sunar. Maliyet etkin ve güvenilir bu sistemler, günlük şarj ihtiyaçlarını karşılamak için tasarlanmıştır.",
+      title: t('stationCard.acTitle'),
+      description: t('stationCard.acDesc'),
       gradient: "from-green-50 to-green-100",
       iconBg: "bg-green-600"
     }
@@ -118,8 +118,8 @@ export default function About() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
         </svg>
       ),
-      title: "İnovasyon",
-                  description: "VOLTGO'nun en son teknolojilerini takip ederek yenilikçi çözümler sunuyoruz."
+      title: t('values.innovation'),
+      description: t('values.innovationDesc')
     },
     {
       icon: (
@@ -127,8 +127,8 @@ export default function About() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
       ),
-      title: "Kalite",
-                  description: "VOLTGO'nun yüksek kalite standartlarında ürün ve hizmet garantisi veriyoruz."
+      title: t('values.quality'),
+      description: t('values.qualityDesc')
     },
     {
       icon: (
@@ -136,8 +136,8 @@ export default function About() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
         </svg>
       ),
-      title: "Sürdürülebilirlik",
-      description: "Çevre dostu çözümlerle gelecek nesillere temiz bir dünya bırakıyoruz."
+      title: t('values.sustainability'),
+      description: t('values.sustainabilityDesc')
     }
   ];
 
@@ -164,7 +164,7 @@ export default function About() {
           
           <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
             <SplitParagraph>
-              {`TRWATT, ${t('about.description1')}`}
+              {t('about.description1')}
             </SplitParagraph>
             <SplitParagraph>
               {t('about.description2')}
@@ -383,11 +383,11 @@ export default function About() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Kurumsal ve Ticari Çözümler
+            {t('about.corporateTitle')}
           </motion.h3>
           
           <SplitParagraph className="text-lg text-gray-600 leading-relaxed relative z-10">
-                TRWATT olarak, VOLTGO'nun kurumsal ve ticari çözümlerini müşterilerimize sunuyoruz. Gelir modeli odaklı yaklaşımımızla, şarj istasyonu yatırımlarınızın karlılığını maksimize ediyoruz. Finansal danışmanlık, teknik destek ve sürekli bakım hizmetlerimizle, elektrikli araç şarj altyapınızı güvenle işletebilirsiniz. Kurumsal müşterilerimize özel fiyatlandırma ve esnek ödeme seçenekleri sunarak, sürdürülebilir enerji dönüşümünde iş ortağınız oluyoruz.
+                {t('about.corporateDesc')}
           </SplitParagraph>
         </motion.div>
 
@@ -420,7 +420,7 @@ export default function About() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              Değerlerimiz
+              {t('about.valuesTitle')}
             </motion.h4>
             
             <motion.div 

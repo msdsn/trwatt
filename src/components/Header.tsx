@@ -62,11 +62,11 @@ export default function Header() {
   ];
 
   const solutionsSubmenu = [
-    { name: "DC Hızlı Şarj", href: "#dc-charging" },
-    { name: "AC Şarj İstasyonu", href: "#ac-charging" },
-    { name: "Wallbox Çözümleri", href: "#wallbox" },
-    { name: "Kurumsal Çözümler", href: "#corporate" },
-    { name: "Ticari Çözümler", href: "#commercial" }
+    { name: t('solutions.dcFastCharging'), href: "#dc-charging" },
+    { name: t('solutions.acChargingStation'), href: "#ac-charging" },
+    { name: t('solutions.wallboxSolutions'), href: "#wallbox" },
+    { name: t('solutions.corporateSolutions'), href: "#corporate" },
+    { name: t('solutions.commercialSolutions'), href: "#commercial" }
   ];
 
   const NavItem = ({ href, children, isActive }: { href: string; children: React.ReactNode; isActive: boolean }) => (
@@ -398,7 +398,7 @@ export default function Header() {
                     closed: { opacity: 0, x: -20 }
                   }}
                 >
-                  <motion.span className="text-sm" style={{ color: textColor }}>Dil:</motion.span>
+                  <motion.span className="text-sm" style={{ color: textColor }}>{t('header.language')}</motion.span>
                   <motion.button
                     className={`text-sm font-medium ${language === 'tr' ? 'text-blue-600' : ''}`}
                     style={{ color: language === 'tr' ? '#2563eb' : textColor }}
