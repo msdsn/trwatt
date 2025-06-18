@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from 'motion/react';
+import { useState, useEffect } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Contact() {
@@ -111,9 +112,12 @@ export default function Contact() {
               whileHover={{ scale: 1.02 }}
             >
               <h5 className="font-semibold mb-4 text-gray-800 flex items-center">
-                <motion.div
+                <motion.a
+                  href="#home"
+                  className="cursor-pointer"
                   whileHover={{ rotate: [0, -10, 10, 0] }}
                   transition={{ duration: 0.5 }}
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 >
                   <Image
                                           src="/TRWatt_logo.png"
@@ -122,7 +126,7 @@ export default function Contact() {
                     height={24}
                     className="mr-2"
                   />
-                </motion.div>
+                </motion.a>
                 VOLTGO Merkez İletişim
               </h5>
               <div className="space-y-2 text-gray-600">
@@ -198,7 +202,7 @@ export default function Contact() {
           {/* Contact Form */}
           <motion.div 
             className="bg-gray-50 rounded-3xl p-8"
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}

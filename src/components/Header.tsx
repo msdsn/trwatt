@@ -29,11 +29,31 @@ export default function Header() {
       if (currentSection) {
         setActiveNavItem(currentSection);
       }
+      
+      // Close mobile menu on scroll
+      if (isMenuOpen) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    const handleClickOutside = (event: MouseEvent) => {
+      // Close mobile menu when clicking outside
+      if (isMenuOpen) {
+        const header = document.querySelector('header');
+        if (header && !header.contains(event.target as Node)) {
+          setIsMenuOpen(false);
+        }
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    window.addEventListener('click', handleClickOutside);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('click', handleClickOutside);
+    };
+  }, [isMenuOpen]);
 
   const corporateSubmenu = [
     { name: t('nav.about'), href: "#about" },
@@ -129,10 +149,15 @@ export default function Header() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <motion.div 
-              className="flex items-center space-x-3"
+            <motion.a
+              href="#home"
+              className="flex items-center space-x-3 cursor-pointer"
               whileHover={{ scale: 1.02 }}
               transition={{ type: 'spring', stiffness: 400 }}
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                setIsMenuOpen(false);
+              }}
             >
               <motion.div
                 whileHover={{ rotate: [0, -10, 10, 0] }}
@@ -160,7 +185,7 @@ export default function Header() {
                   {t('company.tagline')}
                 </motion.p>
               </div>
-            </motion.div>
+            </motion.a>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-8">
@@ -359,6 +384,7 @@ export default function Header() {
                       closed: { opacity: 0, x: -20 }
                     }}
                     whileHover={{ x: 10 }}
+                    onClick={() => setIsMenuOpen(false)}
                   >
                     {item.label}
                   </motion.a>

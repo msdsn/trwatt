@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion, useInView, useScroll, useTransform } from 'motion/react';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 // Split paragraph component for line-by-line animation
@@ -52,8 +52,9 @@ const SplitParagraph = ({ children, className }: { children: string; className?:
 
 // Floating Logo component
 const FloatingLogo = ({ src, alt, delay = 0 }: { src: string; alt: string; delay?: number }) => (
-  <motion.div 
-    className="w-16 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
+  <motion.a
+    href="#home"
+    className="w-16 h-12 bg-blue-100 rounded-lg flex items-center justify-center cursor-pointer"
     initial={{ opacity: 0, scale: 0 }}
     whileInView={{ opacity: 1, scale: 1 }}
     transition={{ delay, duration: 0.5, type: 'spring' }}
@@ -62,6 +63,7 @@ const FloatingLogo = ({ src, alt, delay = 0 }: { src: string; alt: string; delay
       rotate: [0, -10, 10, 0],
       transition: { duration: 0.5 }
     }}
+    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
   >
     <Image
       src={src}
@@ -70,7 +72,7 @@ const FloatingLogo = ({ src, alt, delay = 0 }: { src: string; alt: string; delay
       height={30}
       className="object-contain"
     />
-  </motion.div>
+  </motion.a>
 );
 
 export default function About() {
@@ -218,7 +220,7 @@ export default function About() {
           <motion.div 
             ref={imageRef}
             className="relative"
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}

@@ -111,10 +111,12 @@ export default function Footer() {
               }}
               transition={{ duration: 0.6 }}
             >
-              <motion.div 
-                className="flex items-center space-x-3 mb-6"
+              <motion.a
+                href="#home"
+                className="flex items-center space-x-3 mb-6 cursor-pointer"
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: 'spring', stiffness: 300 }}
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
                 <motion.div
                   whileHover={{ rotate: [0, -10, 10, 0] }}
@@ -132,7 +134,7 @@ export default function Footer() {
                   <h3 className="text-2xl font-bold">{t('company.name')}</h3>
                   <p className="text-gray-300">{t('company.tagline')}</p>
                 </div>
-              </motion.div>
+              </motion.a>
               
               <motion.p 
                 className="text-gray-300 mb-6 leading-relaxed max-w-md"
