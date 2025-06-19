@@ -54,7 +54,7 @@ const SplitParagraph = ({ children, className }: { children: string; className?:
 const FloatingLogo = ({ src, alt, delay = 0 }: { src: string; alt: string; delay?: number }) => (
   <motion.a
     href="#home"
-    className="w-16 h-12 bg-blue-100 rounded-lg flex items-center justify-center cursor-pointer"
+    className="w-20 h-16 bg-blue-100 rounded-lg flex items-center justify-center cursor-pointer"
     initial={{ opacity: 0, scale: 0 }}
     whileInView={{ opacity: 1, scale: 1 }}
     transition={{ delay, duration: 0.5, type: 'spring' }}
@@ -68,8 +68,8 @@ const FloatingLogo = ({ src, alt, delay = 0 }: { src: string; alt: string; delay
     <Image
       src={src}
       alt={alt}
-      width={40}
-      height={30}
+      width={48}
+      height={36}
       className="object-contain"
     />
   </motion.a>
@@ -254,7 +254,7 @@ export default function About() {
                     }
                   }}
                 >
-                  <FloatingLogo src="/TRWatt_logo.png" alt="TR Watt" delay={0} />
+                  <FloatingLogo src="/logo00113.png" alt="TR Watt" delay={0} />
                   <motion.div 
                     className="w-16 h-12 bg-gray-100 rounded-lg flex items-center justify-center"
                     initial={{ opacity: 0, scale: 0 }}

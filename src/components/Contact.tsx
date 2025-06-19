@@ -120,10 +120,10 @@ export default function Contact() {
                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 >
                   <Image
-                                          src="/TRWatt_logo.png"
+                                          src="/logo00113.png"
                                           alt="TR Watt"
-                    width={24}
-                    height={24}
+                    width={32}
+                    height={32}
                     className="mr-2"
                   />
                 </motion.a>

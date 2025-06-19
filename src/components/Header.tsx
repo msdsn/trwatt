@@ -9,6 +9,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [activeNavItem, setActiveNavItem] = useState<string>('home');
+  const [isScrolled, setIsScrolled] = useState(false);
   const { scrollY } = useScroll();
   const { language, setLanguage, t } = useLanguage();
   
@@ -17,6 +18,10 @@ export default function Header() {
   
   useEffect(() => {
     const handleScroll = () => {
+      // Check if scrolled past hero section (roughly 80% of viewport height)
+      const heroHeight = typeof window !== 'undefined' ? window.innerHeight * 0.8 : 600;
+      setIsScrolled(window.scrollY > heroHeight);
+      
       const sections = ['home', 'corporate', 'solutions', 'products', 'stations', 'gallery', 'contact'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
@@ -164,19 +169,20 @@ export default function Header() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="/TRWatt_logo.png"
+                  src={isScrolled ? "/logo00113.png" : "/logo001114.png"}
                   alt="TR Watt Logo"
-                  width={50}
-                  height={50}
+                  width={60}
+                  height={60}
                   className="rounded-lg"
                 />
               </motion.div>
               <div>
                 <motion.h1 
-                  className="text-base font-bold"
+                  className="text-base font-bold flex"
                   style={{ color: textColor }}
                 >
-                  {t('company.name')}
+                  <span className="text-blue-500">TR</span>
+                  <span className="text-green-500">WATT</span>
                 </motion.h1>
                 <motion.p 
                   className="text-xs font-bold opacity-80"

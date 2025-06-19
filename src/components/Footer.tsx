@@ -125,8 +125,8 @@ export default function Footer() {
                   <Image
                     src="/TRWatt_logo.png"
                     alt="TR Watt Logo"
-                    width={50}
-                    height={50}
+                    width={60}
+                    height={60}
                     className="rounded-lg"
                   />
                 </motion.div>
