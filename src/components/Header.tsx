@@ -156,7 +156,7 @@ export default function Header() {
             {/* Logo */}
             <motion.a
               href="#home"
-              className="flex items-center space-x-3 cursor-pointer"
+              className="flex flex-col items-center space-y-2 cursor-pointer"
               whileHover={{ scale: 1.02 }}
               transition={{ type: 'spring', stiffness: 400 }}
               onClick={() => {
@@ -171,19 +171,24 @@ export default function Header() {
                 <Image
                   src={isScrolled ? "/logo00113.png" : "/logo001114.png"}
                   alt="TR Watt Logo"
-                  width={60}
-                  height={60}
+                  width={130}
+                  height={70}
                   className="rounded-lg"
                 />
               </motion.div>
-              <div>
-                <motion.h1 
-                  className="text-base font-bold flex"
-                  style={{ color: textColor }}
+              <div className="flex items-center space-x-2">
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 0.2 }}
                 >
-                  <span className="text-blue-500">TR</span>
-                  <span className="text-green-500">WATT</span>
-                </motion.h1>
+                  <Image
+                    src="/logo-voltgo.png"
+                    alt="VOLTGO Logo"
+                    width={60}
+                    height={10}
+                    className="object-contain"
+                  />
+                </motion.div>
                 <motion.p 
                   className="text-xs font-bold opacity-80"
                   style={{ color: textColor, fontSize: '10px' }}

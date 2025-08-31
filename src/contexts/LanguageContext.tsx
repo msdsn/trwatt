@@ -38,7 +38,7 @@ const translations = {
     'hero.benefit3': '7/24 Aktif',
     
     // Mobile App
-    'mobileApp.title': 'VOLTGO Mobile App –',
+    'mobileApp.title': 'VOLTGO Mobile App',
     'mobileApp.subtitle': 'Şimdi İndirin',
     'mobileApp.description': 'VOLTGO mobil uygulaması ile elektrikli araç şarj istasyonlarını kolayca bulun, şarj işlemlerinizi yönetin ve gerçek zamanlı bilgilere erişin.',
     'mobileApp.feature1': 'Ücretsiz ve Erişilebilir',
@@ -94,7 +94,7 @@ const translations = {
     
     // Company Info
     'company.name': 'TRWATT',
-    'company.tagline': 'VOLTGO Yetkili Bayisi',
+    'company.tagline': 'İstanbul Bayisi',
     
     // Services
     'services.dcFastCharging': 'DC Hızlı Şarj Çözümleri',
@@ -205,7 +205,7 @@ const translations = {
     'hero.benefit3': '24/7 Active',
     
     // Mobile App
-    'mobileApp.title': 'VOLTGO Mobile App –',
+    'mobileApp.title': 'VOLTGO Mobile App',
     'mobileApp.subtitle': 'Download Now',
     'mobileApp.description': 'Easily find electric vehicle charging stations, manage your charging operations and access real-time information with the VOLTGO mobile application.',
     'mobileApp.feature1': 'Free and Accessible',
@@ -261,7 +261,7 @@ const translations = {
     
     // Company Info
     'company.name': 'TRWATT',
-    'company.tagline': 'VOLTGO Authorized Dealer',
+    'company.tagline': 'Istanbul Dealer',
     
     // Services
     'services.dcFastCharging': 'DC Fast Charging Solutions',

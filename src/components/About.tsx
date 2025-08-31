@@ -256,7 +256,7 @@ export default function About() {
                 >
                   <FloatingLogo src="/logo00113.png" alt="TR Watt" delay={0} />
                   <motion.div 
-                    className="w-16 h-12 bg-gray-100 rounded-lg flex items-center justify-center"
+                    className="w-20 h-16 bg-gray-100 rounded-lg flex items-center justify-center p-1"
                     initial={{ opacity: 0, scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2, duration: 0.5, type: 'spring' }}
@@ -266,8 +266,15 @@ export default function About() {
                       transition: { duration: 0.5 }
                     }}
                   >
-                    <span className="text-xs font-bold text-gray-600">BETA</span>
+                    <Image
+                      src="/beta-1.png"
+                      alt="Beta Logo"
+                      width={48}
+                      height={36}
+                      className="object-contain"
+                    />
                   </motion.div>
+                  <FloatingLogo src="/logo-voltgo.png" alt="VoltGo" delay={0.4} />
                 </motion.div>
               </div>
               

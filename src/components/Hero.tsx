@@ -151,15 +151,21 @@ export default function Hero() {
                 {t('hero.title')}
               </SplitText>
               
-              {/* Subtitle with delay */}
-              <motion.h2 
-                className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 text-blue-300"
+              {/* Subtitle with delay - Logo */}
+              <motion.div 
+                className="mb-8 flex items-center"
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1.5, duration: 0.8 }}
               >
-                {t('hero.subtitle')}
-              </motion.h2>
+                <Image
+                  src="/logo-voltgo.png"
+                  alt="Voltgo Logo"
+                  width={200}
+                  height={80}
+                  className="object-contain"
+                />
+              </motion.div>
               
               {/* Description */}
               <motion.p 

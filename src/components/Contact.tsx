@@ -112,21 +112,8 @@ export default function Contact() {
               whileHover={{ scale: 1.02 }}
             >
               <h5 className="font-semibold mb-4 text-gray-800 flex items-center">
-                <motion.a
-                  href="#home"
-                  className="cursor-pointer"
-                  whileHover={{ rotate: [0, -10, 10, 0] }}
-                  transition={{ duration: 0.5 }}
-                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                >
-                  <Image
-                                          src="/logo00113.png"
-                                          alt="TR Watt"
-                    width={32}
-                    height={32}
-                    className="mr-2"
-                  />
-                </motion.a>
+                
+                  
                 {t('contact.voltgoCenter')}
               </h5>
               <div className="space-y-2 text-gray-600">

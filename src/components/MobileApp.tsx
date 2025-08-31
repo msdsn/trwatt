@@ -77,7 +77,15 @@ const PhoneMockup = ({ t }: { t: (key: string) => string }) => {
               
               <div className="text-white relative z-10">
                 <div className="flex items-center justify-between mb-8">
-                  <h3 className="text-xl font-bold">VOLTGO</h3>
+                  <div className="flex items-center">
+                    <Image
+                      src="/logo-voltgo.png"
+                      alt="Voltgo Logo"
+                      width={80}
+                      height={30}
+                      className="object-contain"
+                    />
+                  </div>
                   <motion.div 
                     className="w-6 h-6 bg-white/20 rounded-full"
                     animate={{ scale: [1, 1.2, 1] }}
@@ -239,17 +247,40 @@ export default function MobileApp() {
             }}
           >
             {/* Title */}
-            <motion.h3 
-              className="text-4xl font-bold mb-6 text-gray-800"
+            <motion.div 
+              className="mb-6"
               variants={{
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 }
               }}
               transition={{ duration: 0.6 }}
             >
-              {t('mobileApp.title')}<br />
-              <span className="text-blue-600">{t('mobileApp.subtitle')}</span>
-            </motion.h3>
+              <div className="flex items-center gap-6 mb-2">
+                <motion.div
+                  initial={{ opacity: 0, scale: 0 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.3, duration: 0.5, type: 'spring' }}
+                  whileHover={{ 
+                    scale: 1.1, 
+                    rotate: [0, -10, 10, 0],
+                    transition: { duration: 0.5 }
+                  }}
+                  className="flex-shrink-0"
+                >
+                  <Image
+                    src="/logo-voltgo.png"
+                    alt="Voltgo Logo"
+                    width={150}
+                    height={100}
+                    className="object-contain"
+                  />
+                </motion.div>
+                <h3 className="text-xl md:text-3xl font-bold text-gray-800">
+                  {t('mobileApp.title')}
+                </h3>
+              </div>
+              <span className="text-2xl md:text-3xl font-bold text-blue-600">{t('mobileApp.subtitle')}</span>
+            </motion.div>
             
             {/* Description */}
             <motion.p 

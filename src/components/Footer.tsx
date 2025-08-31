@@ -113,26 +113,37 @@ export default function Footer() {
             >
               <motion.a
                 href="#home"
-                className="flex items-center space-x-3 mb-6 cursor-pointer"
+                className="flex flex-col space-y-3 mb-6 cursor-pointer"
                 whileHover={{ scale: 1.02 }}
                 transition={{ type: 'spring', stiffness: 300 }}
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
                 <motion.div
-                  whileHover={{ rotate: [0, -10, 10, 0] }}
+                  whileHover={{ scaleX: 1.1, scaleY: 1.05 }}
                   transition={{ duration: 0.5 }}
                 >
                   <Image
-                    src="/TRWatt_logo.png"
+                    src="/logo001114.png"
                     alt="TR Watt Logo"
-                    width={60}
+                    width={130}
                     height={60}
                     className="rounded-lg"
                   />
                 </motion.div>
-                <div>
-                  <h3 className="text-2xl font-bold">{t('company.name')}</h3>
-                  <p className="text-gray-300">{t('company.tagline')}</p>
+                <div className="flex items-center space-x-2">
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <Image
+                      src="/logo-voltgo.png"
+                      alt="VOLTGO Logo"
+                      width={60}
+                      height={15}
+                      className="object-contain"
+                    />
+                  </motion.div>
+                  <p className="text-gray-300 text-sm font-medium">{t('company.tagline')}</p>
                 </div>
               </motion.a>
               
