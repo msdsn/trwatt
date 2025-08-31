@@ -200,12 +200,14 @@ export default function Header() {
               </NavItem>
               
               {/* Corporate Dropdown */}
-              <div className="relative group">
+              <div 
+                className="relative group"
+                onMouseEnter={() => setActiveDropdown('corporate')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
                 <motion.button 
                   className="hover:text-blue-600 transition-colors font-bold text-xs flex items-center space-x-1"
                   style={{ color: textColor }}
-                  onMouseEnter={() => setActiveDropdown('corporate')}
-                  onMouseLeave={() => setActiveDropdown(null)}
                   whileHover={{ y: -2 }}
                 >
                   <span>{t('nav.corporate')}</span>
@@ -222,36 +224,40 @@ export default function Header() {
                 </motion.button>
                 {activeDropdown === 'corporate' && (
                   <motion.div 
-                    className="absolute top-full left-0 mt-2 w-64 bg-white/20 backdrop-blur-md rounded-3xl p-4 shadow-xl z-50 border border-white/10"
+                    className="absolute top-full left-0 pt-2 w-64 z-50"
                     initial={{ opacity: 0, y: -10, scale: 0.95 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: -10, scale: 0.95 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div className="px-4 py-6 bg-white rounded-2xl">
-                      {corporateSubmenu.map((item, index) => (
-                        <motion.a 
-                          key={index}
-                          href={item.href} 
-                          className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors rounded-lg mb-1"
-                          whileHover={{ x: 4 }}
-                          transition={{ type: 'spring', stiffness: 300 }}
-                        >
-                          {item.name}
-                        </motion.a>
-                      ))}
+                    <div className="bg-white/20 backdrop-blur-md rounded-3xl p-4 shadow-xl border border-white/10">
+                      <div className="px-4 py-6 bg-white rounded-2xl">
+                        {corporateSubmenu.map((item, index) => (
+                          <motion.a 
+                            key={index}
+                            href={item.href} 
+                            className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors rounded-lg mb-1"
+                            whileHover={{ x: 4 }}
+                            transition={{ type: 'spring', stiffness: 300 }}
+                          >
+                            {item.name}
+                          </motion.a>
+                        ))}
+                      </div>
                     </div>
                   </motion.div>
                 )}
               </div>
 
               {/* Solutions Dropdown */}
-              <div className="relative group">
+              <div 
+                className="relative group"
+                onMouseEnter={() => setActiveDropdown('solutions')}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
                 <motion.button 
                   className="hover:text-blue-600 transition-colors font-bold text-xs flex items-center space-x-1"
                   style={{ color: textColor }}
-                  onMouseEnter={() => setActiveDropdown('solutions')}
-                  onMouseLeave={() => setActiveDropdown(null)}
                   whileHover={{ y: -2 }}
                 >
                   <span>{t('nav.solutions')}</span>
@@ -268,24 +274,26 @@ export default function Header() {
                 </motion.button>
                 {activeDropdown === 'solutions' && (
                   <motion.div 
-                    className="absolute top-full left-0 mt-2 w-72 bg-white/20 backdrop-blur-md rounded-3xl p-4 shadow-xl z-50 border border-white/10"
+                    className="absolute top-full left-0 pt-2 w-72 z-50"
                     initial={{ opacity: 0, y: -10, scale: 0.95 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: -10, scale: 0.95 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div className="px-4 py-6 bg-white rounded-2xl">
-                      {solutionsSubmenu.map((item, index) => (
-                        <motion.a 
-                          key={index}
-                          href={item.href} 
-                          className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors rounded-lg mb-1"
-                          whileHover={{ x: 4 }}
-                          transition={{ type: 'spring', stiffness: 300 }}
-                        >
-                          {item.name}
-                        </motion.a>
-                      ))}
+                    <div className="bg-white/20 backdrop-blur-md rounded-3xl p-4 shadow-xl border border-white/10">
+                      <div className="px-4 py-6 bg-white rounded-2xl">
+                        {solutionsSubmenu.map((item, index) => (
+                          <motion.a 
+                            key={index}
+                            href={item.href} 
+                            className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors rounded-lg mb-1"
+                            whileHover={{ x: 4 }}
+                            transition={{ type: 'spring', stiffness: 300 }}
+                          >
+                            {item.name}
+                          </motion.a>
+                        ))}
+                      </div>
                     </div>
                   </motion.div>
                 )}
